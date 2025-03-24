@@ -88,14 +88,14 @@ This project follows the **6-step data analysis process**:
 ## 🔍 Data Analysis Methods
 
 ### Quantitative Analysis:
-- Tools: Python (**pandas**, **seaborn**, **matplotlib**), Excel, SQL
+- Tools: Python (**pandas**, **matplotlib**), Excel, SQL
 - Techniques:
   - **Descriptive statistics** (mean, median)
   - **Box plots** for hiring duration vs retention
   - **Correlation matrices**
   - **Bar/line charts** for trends across teams
 
-### Qualitative Analysis:
+### Qualitative Analysis(Can be done on strings with undefined categories):
 - Tools: LLMs (e.g., GPT), **spaCy**, **NLTK**
 - Techniques:
   - **LLM-based categorization** of open text (e.g., reasons for leaving: Compensation, Management)
