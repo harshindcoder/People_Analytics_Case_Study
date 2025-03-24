@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS employee_retention;
 USE employee_retention;
 
 -- Create the employee_surveys table
-CREATE TABLE IF NOT EXISTS employee_survey (
+CREATE TABLE IF NOT EXISTS employee_survey_2024 (
     employee_id VARCHAR(10) PRIMARY KEY,
     hiring_duration_weeks DECIMAL(4,1),
     hiring_satisfaction INT CHECK (hiring_satisfaction BETWEEN 1 AND 10),
@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS employee_survey (
     stayed BOOLEAN
 );
 
-INSERT INTO employee_survey (
+INSERT INTO employee_survey_2024 (
     employee_id, hiring_duration_weeks, hiring_satisfaction, onboarding_rating, 
     recommend_company, job_satisfaction, reason_for_leaving, stayed
 ) VALUES
